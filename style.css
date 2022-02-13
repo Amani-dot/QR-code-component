@@ -1,0 +1,71 @@
+/* :root{
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+} */
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    /* outline: 1px solid black; */
+}
+
+body{
+    font-size: 15px;
+    font-family: Outfit, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns:1;
+    grid-template-rows: 2;
+    background-color:hsl(0, 0%, 100%) ;
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+
+.barcode{
+    display: inline-block;
+    margin-top: 10px;
+    transform: translateX(3.5%);
+}
+.barcode img{
+    border-radius: 15px; 
+    width:370px;
+    height: 390px;  
+}
+
+.text{
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 2em;    
+   
+ }
+
+#h3{
+ font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+   
+}
+
+#paro{
+    font-weight: 400;
+    font-size: 16px;
+   
+}
+
+
